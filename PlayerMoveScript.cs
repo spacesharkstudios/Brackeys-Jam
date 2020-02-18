@@ -17,12 +17,6 @@ public class PlayerMoveScript : KinematicBody2D
 		facingRight = false;
 	}
 
-//  // Called every frame. 'delta' is the elapsed time since the previous frame.
-//  public override void _Process(float delta)
-//  {
-//      
-//  }
-
 	public override void _PhysicsProcess(float delta){
 		GetInput(playerNum); // adjust the player speed based on their input
 		var collision = MoveAndCollide(velocity * delta * moveSpeed);
@@ -87,6 +81,7 @@ public class PlayerMoveScript : KinematicBody2D
 				velocity.x = hmove; velocity.y = vmove;
 				break;
 		}
+		Console.WriteLine(velocity.x + " " + velocity.y);
 	}
 	
 	public Vector2 GetVelocity(){

@@ -53,6 +53,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HeldItem.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="PlayerAnimator.cs" />
     <Compile Include="PlayerMoveScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

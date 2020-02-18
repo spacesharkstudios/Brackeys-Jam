@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Art/Player Sprite Sheet.png" type="Texture" id=1]
 [ext_resource path="res://PlayerMoveScript.cs" type="Script" id=2]
 [ext_resource path="res://Art/Donuts/Fried Donut Glazed.png" type="Texture" id=3]
 [ext_resource path="res://PlayerAnimator.cs" type="Script" id=4]
+[ext_resource path="res://HeldItem.cs" type="Script" id=5]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 8.58004
@@ -169,7 +170,8 @@ script = ExtResource( 4 )
 
 [node name="ItemHoldPoint" type="Node2D" parent="."]
 position = Vector2( -4, 1 )
+script = ExtResource( 5 )
 
-[node name="Sprite" type="Sprite" parent="ItemHoldPoint"]
+[node name="HeldItem" type="Sprite" parent="ItemHoldPoint"]
 visible = false
 texture = ExtResource( 3 )
