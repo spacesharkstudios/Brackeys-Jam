@@ -3,7 +3,7 @@ using System;
 
 public class PlayerAnimator : AnimationPlayer
 {
-	string _idleEmpty, _runEmpty, _itemPickup, _idleHolding, _runHolding;
+	public string _idleEmpty, _runEmpty, _itemPickup, _idleHolding, _runHolding;
 	Animation idleEmpty, runEmpty, itemPickup, idleHolding, runHolding, test;
 	PlayerMoveScript player;
 	Vector2 playerMove;
