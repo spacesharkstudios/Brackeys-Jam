@@ -4,8 +4,5 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Player2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 189.71, 113.073 )
-
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 230.842, 112.319 )

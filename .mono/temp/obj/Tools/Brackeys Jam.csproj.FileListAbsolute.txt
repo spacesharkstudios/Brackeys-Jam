@@ -1,0 +1,5 @@
+D:\Brackeys Jam\.mono\temp\bin\Tools\Brackeys Jam.dll
+D:\Brackeys Jam\.mono\temp\bin\Tools\Brackeys Jam.pdb
+D:\Brackeys Jam\.mono\temp\obj\Tools\Brackeys Jam.csprojAssemblyReference.cache
+D:\Brackeys Jam\.mono\temp\obj\Tools\Brackeys Jam.dll
+D:\Brackeys Jam\.mono\temp\obj\Tools\Brackeys Jam.pdb
